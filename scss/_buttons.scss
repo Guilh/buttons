@@ -1,0 +1,56 @@
+
+// Common Colors
+
+$off-wht: rgba(white,.4);
+
+// Button Base Styles
+
+%btn-base {
+	display: inline-block;
+	margin: 1rem; 
+	padding: .938em 1.875em;
+	border: .094em solid;
+	border-radius: .625em;
+	box-shadow: 0 .375em .313em -.313em rgba(black,.8), inset 0 .063em $off-wht, inset 0 -.188em rgba(black,.15);
+	color: #FFF;
+	font: bold 1em sans-serif;
+	text: {
+		transform: uppercase;
+		decoration: none;
+		shadow: 0 .063em rgba(black,.3);
+	}
+	transition: .3s;
+  	cursor:pointer;
+}
+
+// Mixins
+
+@mixin btn-theme($btn-color) {
+	border-color: darken($btn-color, 20%);
+	background-color: $btn-color;
+	&:hover {
+		background-color: darken($btn-color, 6%);
+		box-shadow: 0 .125em $off-wht, inset 0 .063em $off-wht, inset 0 -.188em lighten($btn-color, 2%);
+	}
+	&:active {
+		box-shadow: 0 .063em $off-wht, inset 0 0 1.094em darken($btn-color, 40%), inset 0 .063em darken($btn-color, 20%),inset 0 -0.188em darken($btn-color, 20%); 
+	}
+	@extend %btn-base;
+}
+
+// Themes
+
+.theme-a {
+	@extend %purple;
+}
+.theme-b {
+	@extend %blue;
+}
+.theme-c {
+	@extend %green;
+}
+.theme-d {
+	@extend %palevioletred;
+}
+
+

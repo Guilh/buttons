@@ -1,0 +1,30 @@
+
+// Color Theme Library
+
+%purple {
+	@include btn-theme(#9A68C7);
+}
+%blue {
+	@include btn-theme(#3BA9E4);
+}
+%green {
+	@include btn-theme(#75B343);
+}
+%orange {
+	@include btn-theme(#FF6A42);
+}
+%lightcoral {
+	@include btn-theme(lightcoral);
+}
+%lightseagreen {
+	@include btn-theme(lightseagreen);
+}
+%palevioletred {
+	@include btn-theme(palevioletred);
+}
+%steelblue {
+	@include btn-theme(steelblue);
+}
+%tomato {
+	@include btn-theme(tomato);
+}

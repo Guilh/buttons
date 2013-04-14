@@ -1,9 +1,8 @@
 body {
   background-color: #E9E9E9;
-  font-size: 1.8em;
-}
+  font-size: 1.8em; }
 
-.theme-a, .theme-b, .theme-c, .theme-d {
+.btn-start, .btn-order, .btn-submit, .btn-delete {
   display: inline-block;
   margin: 1rem;
   padding: 0.938em 1.875em;
@@ -16,53 +15,40 @@ body {
   text-decoration: none;
   text-shadow: 0 0.063em rgba(0, 0, 0, 0.3);
   transition: .3s;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-.theme-a {
-  border-color: #673693;
-  background-color: #9a68c7;
-}
-.theme-a:hover {
-  background-color: #8b52bf;
-  box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #9f6fca;
-}
-.theme-a:active {
-  box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #331b48, inset 0 0.063em #673693, inset 0 -0.188em #673693;
-}
-
-.theme-b {
+.btn-start {
   border-color: #1672a3;
-  background-color: #3ba9e4;
-}
-.theme-b:hover {
-  background-color: #209de0;
-  box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #44ade5;
-}
-.theme-b:active {
-  box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #0a3349, inset 0 0.063em #1672a3, inset 0 -0.188em #1672a3;
-}
+  background-color: #3ba9e4; }
+  .btn-start:hover {
+    background-color: #209de0;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #44ade5; }
+  .btn-start:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #105276, inset 0 0.063em #1672a3, inset 0 -0.188em #1672a3; }
 
-.theme-c {
+.btn-order {
   border-color: #446927;
-  background-color: #75b343;
-}
-.theme-c:hover {
-  background-color: #669d3b;
-  box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #7aba46;
-}
-.theme-c:active {
-  box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #141f0b, inset 0 0.063em #446927, inset 0 -0.188em #446927;
-}
+  background-color: #75b343; }
+  .btn-order:hover {
+    background-color: #669d3b;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #7aba46; }
+  .btn-order:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #2c4419, inset 0 0.063em #446927, inset 0 -0.188em #446927; }
 
-.theme-d {
+.btn-submit {
   border-color: #b72e5b;
-  background-color: palevioletred;
-}
-.theme-d:hover {
-  background-color: #d55881;
-  box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #dd7899;
-}
-.theme-d:active {
-  box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #651a32, inset 0 0.063em #b72e5b, inset 0 -0.188em #b72e5b;
-}
+  background-color: palevioletred; }
+  .btn-submit:hover {
+    background-color: #d55881;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #dd7899; }
+  .btn-submit:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #8e2447, inset 0 0.063em #b72e5b, inset 0 -0.188em #b72e5b; }
+
+.btn-delete {
+  border-color: #7f0b22;
+  background-color: crimson; }
+  .btn-delete:hover {
+    background-color: #c01134;
+    box-shadow: 0 0.125em rgba(255, 255, 255, 0.4), inset 0 0.063em rgba(255, 255, 255, 0.4), inset 0 -0.188em #e5153f; }
+  .btn-delete:active {
+    box-shadow: 0 0.063em rgba(255, 255, 255, 0.4), inset 0 0 1.094em #500716, inset 0 0.063em #7f0b22, inset 0 -0.188em #7f0b22; }

@@ -5,7 +5,7 @@ $off-wht: rgba(white,.4);
 
 // Button Base Styles
 
-%btn-base {
+%btn {
 	display: inline-block;
 	margin: 1rem; 
 	padding: .938em 1.875em;
@@ -33,24 +33,26 @@ $off-wht: rgba(white,.4);
 		box-shadow: 0 .125em $off-wht, inset 0 .063em $off-wht, inset 0 -.188em lighten($btn-color, 2%);
 	}
 	&:active {
-		box-shadow: 0 .063em $off-wht, inset 0 0 1.094em darken($btn-color, 40%), inset 0 .063em darken($btn-color, 20%),inset 0 -0.188em darken($btn-color, 20%); 
+		box-shadow: 0 .063em $off-wht, inset 0 0 1.094em darken($btn-color, 30%), inset 0 .063em darken($btn-color, 20%),inset 0 -0.188em darken($btn-color, 20%); 
 	}
-	@extend %btn-base;
+	@extend %btn;
 }
 
 // Themes
 
-.theme-a {
-	@extend %purple;
+.btn-delete {
+	@extend %tidecrimson;
 }
-.theme-b {
+.btn-start {
 	@extend %blue;
 }
-.theme-c {
+.btn-order {
 	@extend %green;
 }
-.theme-d {
+.btn-submit {
 	@extend %palevioletred;
 }
+
+// Add more
 
 

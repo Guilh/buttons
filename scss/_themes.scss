@@ -1,30 +1,72 @@
 
 // Color Theme Library
 
-%purple {
-	@include btn-theme(#9A68C7);
+%aliceblue {
+	@include btn-theme(#F0F8FF);
 }
 %blue {
 	@include btn-theme(#3BA9E4);
 }
+%caneorange {
+	@include btn-theme(#F86F35);
+}
+%cadetblue {
+	@include btn-theme(#5F9EA0);	
+}
+%cornflowerblue {
+	@include btn-theme(#6495ED);
+}
+%darkorange {
+	@include btn-theme(#FF8C00);	
+}
+%darkslategray {
+	@include btn-theme(#2F4F4F);	
+}
+%dodgerblue {
+	@include btn-theme(#1E90FF);	
+}
+%firebrick {
+	@include btn-theme(#B22222);	
+}
+%gatorblue {
+	@include btn-theme(#00529B);
+}
 %green {
 	@include btn-theme(#75B343);
+}
+%indianred {
+	@include btn-theme(#CD5C5C);
+}
+%lightblue {
+	@include btn-theme(#ADD8E6);	
+}
+%lightcoral {
+	@include btn-theme(#F08080);
+}
+%lightseagreen {
+	@include btn-theme(#20B2AA);
+}
+%lightslategray {
+	@include btn-theme(#778899);
+}
+%nolegarnet {
+	@include btn-theme(#692438);
 }
 %orange {
 	@include btn-theme(#FF6A42);
 }
-%lightcoral {
-	@include btn-theme(lightcoral);
-}
-%lightseagreen {
-	@include btn-theme(lightseagreen);
-}
 %palevioletred {
-	@include btn-theme(palevioletred);
+	@include btn-theme(#DB7093);
+}
+%purple {
+	@include btn-theme(#9A68C7);
 }
 %steelblue {
-	@include btn-theme(steelblue);
+	@include btn-theme(#4682B4);
+}
+%tidecrimson {
+	@include btn-theme(#DC143C);	
 }
 %tomato {
-	@include btn-theme(tomato);
+	@include btn-theme(#FF6347);
 }
